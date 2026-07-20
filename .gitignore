@@ -1,0 +1,52 @@
+# Credenciales y configuración sensible
+config/conexion.php
+config/config.local.php
+
+# Uploads y archivos subidos por usuarios
+uploads/
+uploads/productos/
+uploads/banners/
+uploads/usuarios/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDEs y editores
+.vscode/settings.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+
+# Node modules (si usamos herramientas frontend)
+node_modules/
+package-lock.json
+
+# Composer (si en futuro usamos librerías PHP)
+vendor/
+composer.lock
+
+# Cache y sesiones
+tmp/
+cache/
+sessions/
+
+# Backup de base de datos
+backups/*.sql
+!backups/.gitkeep
+
+# Variables de entorno
+.env
+.env.local
+
+# Archivos de prueba
+test/
+tests/
